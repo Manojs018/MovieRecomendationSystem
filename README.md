@@ -56,24 +56,6 @@ This project allows users to:
 
 ---
 
-## 📂 Project Structure
-movie-recommender/
-│
-├── backend/
-│ ├── app.py
-│ ├── movies.csv
-│ ├── ratings.csv
-│ ├── users.db
-│ └── requirements.txt
-│
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-│
-└── README.md
-
----
 
 ## 📥 Dataset
 
