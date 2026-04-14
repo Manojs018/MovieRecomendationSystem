@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎬 Movie Recommender</h1>
+
+<div class="auth">
+  <input id="username" placeholder="Username">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="register()">Register</button>
+  <button onclick="login()">Login</button>
+</div>
+
+<hr>
+
+<select id="movieSelect"></select>
+<button onclick="recommend()">Recommend</button>
+
+<h2>Recommendations</h2>
+<div id="results"></div>
+
+<h2>History</h2>
+<div id="history"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
